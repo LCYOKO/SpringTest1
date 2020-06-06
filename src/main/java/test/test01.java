@@ -220,4 +220,38 @@ public class test01 {
        System.out.println(count);
 
    }
+
+    @Test
+    public  void func5(){
+       int nums[]={0,3,7,2,5,8,4,6,0,1};
+       longestConsecutive(nums);
+    }
+    public int longestConsecutive(int[] nums) {
+        int max=1;
+        if(nums.length==0) return 0;
+        Map<Integer,Integer> map=new HashMap<>();
+        for(int i=0;i<nums.length;i++){
+            if(!map.containsKey(nums[i])){
+                map.put(nums[i],1);
+                if(map.containsKey(nums[i]-1)){
+                    max=Math.max(max,merge(map,nums[i]-1,nums[i]));
+                }
+                if(map.containsKey(nums[i]+1)){
+                    max=Math.max(max,merge(map,nums[i],nums[i]+1));
+                }
+            }
+
+        }
+        return max;
+    }
+
+    private int merge(Map<Integer,Integer> map,int less,int more){
+        int left=less-map.get(less)+1;
+        int right=more+map.get(more)-1;
+        int len=right-left+1;
+        map.put(less,len);
+        map.put(more,len);
+
+        return len;
+    }
 }
