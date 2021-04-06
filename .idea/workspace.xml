@@ -2,25 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6708a4c3-8687-4a6f-b507-619aa5cc27f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/proxy/cglib/MyMethondIncepter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/proxy/jdk/MyInvovationHanlder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/proxy/jdk/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/proxy/jdk/XM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/proxy/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/MethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/annotation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/collection/MapInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/collection/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/collection/MyMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/collection/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/collection/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/copy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/copy/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/copy/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/db/DbPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/db/DbPoolImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/excle/MyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/excle/ObserverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/excle/SingletonObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/excle/StrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/excle/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/collection/JucTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/consumer/TestMain01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/consumer/TestMain02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/consumer/TestMain03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/lock/MyLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/lock/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/DiscardRejectPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/MyExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/MyRjectPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/MyThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/MyThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/RejectPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/jvm/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/jvm/TestGc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mi/Describable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mi/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mi/successCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mi/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mq/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mq/rabbit/ConnectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mq/rabbit/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mq/rabbit/MyConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mq/rabbit/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mvc/MyServeletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mvc/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/MyBeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/MyImportSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/netty/simple/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/netty/simple/ServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/netty/simple/TestServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/netty/simple/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spi/DataSearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spi/NetSearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spi/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/annotation/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/config/MyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/config/MyValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/entity/MyImportBeanDefinitionRegistrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/entity/MyImportSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/entity/UserFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/entity/X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/entity/Y.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/springmvc/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/utils/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/test.spi.SearchService" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/中心" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/guava/baseUtils/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/guava/baseUtils/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/aop/testAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/aop/TestAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/juc/Mutex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/juc/lock/Mutex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/MyBeanPostProcesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/MyBeanPostProcesser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/pojo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/pojo/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/pojo/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/proxy/cglib/MyMethondIncepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/proxy/cglib/MyMethondIncepter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/proxy/jdk/MyInvovationHanlder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/proxy/jdk/MyInvovationHanlder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/proxy/jdk/XM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/proxy/jdk/XM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/proxy/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/proxy/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/aop/testAop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/aop/testAop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/app.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/app.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/juc/Mutex$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/juc/Mutex$Sync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/juc/Mutex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/myBeanFactoryPostProcess/MyBeanPostProcesser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/myBeanFactoryPostProcess/MyBeanPostProcesser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/myBeanFactoryPostProcess/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/myBeanFactoryPostProcess/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/pojo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pojo/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/pojo/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/proxy/cglib/MyMethondIncepter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/proxy/cglib/MyMethondIncepter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/proxy/jdk/MyInvovationHanlder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/proxy/jdk/MyInvovationHanlder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/proxy/jdk/XM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/proxy/jdk/XM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/proxy/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/proxy/test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/test01.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -41,186 +131,23 @@
     </expand>
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/proxy/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SqlSessionFactoryBean.class" pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3070">
-              <caret line="172" column="32" selection-start-line="172" selection-start-column="32" selection-end-line="172" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FactoryBean.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.0.RELEASE/spring-beans-5.0.0.RELEASE.jar!/org/springframework/beans/factory/FactoryBean.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyMethondIncepter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/proxy/cglib/MyMethondIncepter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/app.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/test01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="250" selection-start-line="250" selection-end-line="250" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/proxy/jdk/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XM.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/proxy/jdk/XM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyInvovationHanlder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/proxy/jdk/MyInvovationHanlder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>getBeanDefinition</find>
-      <find>dogetBean</find>
-      <find>finishB</find>
-      <find>doGetBean</find>
-      <find>GetBean</find>
-      <find />
-      <find>DoGetBean</find>
-      <find>public state</find>
-      <find>getState</find>
-      <find>acquireI</find>
-      <find>tryRealse</find>
-      <find>interruptlock</find>
-      <find>unlock</find>
-      <find>lock</find>
-      <find>interrupt</find>
-      <find>try</find>
-      <find>getBean</find>
-      <find>getObject</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/spring-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app.java" />
-        <option value="$PROJECT_DIR$/src/main/java/myBeanFactoryPostProcess/MyBeanPostProcesser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/app.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/MyBeanPostProcesser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/annotation/TestAnnotation.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/test/aop/testAop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/pojo/Student.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4bf50a4a-4017-41d4-8dc9-0288ddf1155e/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/test/app.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/juc/Mutex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/guava/baseUtils/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/proxy/jdk/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/proxy/jdk/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/proxy/jdk/MyInvovationHanlder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/test01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/proxy/cglib/MethondIncepter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/proxy/cglib/MyMethondIncepter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/proxy/jdk/XM.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/test/proxy/test.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -230,93 +157,25 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SpringTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SpringTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1400" />
-    <option name="height" value="780" />
-  </component>
+  <component name="ProjectId" id="1mVYkRjEdr02Ktczw7CXdt23F0L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SpringTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringTest1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="editorconfig.notification" value="lf;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jxr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -338,117 +197,86 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.proxy.test" />
-      <module name="SpringTest1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringTest1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.test01" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="test01.func4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringTest1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.test01" />
-      <option name="METHOD_NAME" value="func4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="test01.func5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringTest1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.test01" />
-      <option name="METHOD_NAME" value="func5" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="test.func1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringTest1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.guava.baseUtils" />
-      <option name="MAIN_CLASS_NAME" value="test.guava.baseUtils.test" />
-      <option name="METHOD_NAME" value="func1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="Application.Consumer">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
+    <configuration name="Consumer" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.mq.rabbit.Consumer" />
+      <module name="SpringTest1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.mq.rabbit.Producer" />
+      <module name="SpringTest1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringTest1" />
+      <option name="PACKAGE_NAME" value="test.mq" />
+      <option name="MAIN_CLASS_NAME" value="test.mq.Producer" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringTest1" />
+      <option name="PACKAGE_NAME" value="test.excle" />
+      <option name="MAIN_CLASS_NAME" value="test.excle.Test" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringTest1" />
+      <option name="PACKAGE_NAME" value="test.excle" />
+      <option name="MAIN_CLASS_NAME" value="test.excle.Test" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.test01" />
-      <item itemvalue="JUnit.test01.func4" />
-      <item itemvalue="JUnit.test.func1 (1)" />
-      <item itemvalue="Application.test" />
-      <item itemvalue="JUnit.test01.func5" />
+      <item itemvalue="Application.Producer" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="JUnit.Test.test3" />
+      <item itemvalue="JUnit.Test.test5" />
+      <item itemvalue="JUnit.Producer.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
-        <item itemvalue="JUnit.test01.func5" />
-        <item itemvalue="JUnit.test.func1 (1)" />
-        <item itemvalue="JUnit.test01.func4" />
-        <item itemvalue="JUnit.test01" />
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="JUnit.Producer.test" />
+        <item itemvalue="JUnit.Test.test5" />
+        <item itemvalue="JUnit.Test.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -480,530 +308,391 @@
       <workItem from="1591258342991" duration="8893000" />
       <workItem from="1591320231123" duration="685000" />
       <workItem from="1591406702867" duration="6541000" />
+      <workItem from="1591504491802" duration="1013000" />
+      <workItem from="1592046261217" duration="2250000" />
+      <workItem from="1592060035786" duration="1977000" />
+      <workItem from="1592292467521" duration="3162000" />
+      <workItem from="1592381891035" duration="23000" />
+      <workItem from="1596367346083" duration="4729000" />
+      <workItem from="1596415395789" duration="5697000" />
+      <workItem from="1597020953114" duration="598000" />
+      <workItem from="1597330572823" duration="1441000" />
+      <workItem from="1597552736320" duration="4531000" />
+      <workItem from="1597827354443" duration="4633000" />
+      <workItem from="1597848218815" duration="1241000" />
+      <workItem from="1597851372063" duration="8331000" />
+      <workItem from="1598020070888" duration="1938000" />
+      <workItem from="1598230276596" duration="7984000" />
+      <workItem from="1598316357892" duration="4386000" />
+      <workItem from="1598402873910" duration="6324000" />
+      <workItem from="1598508718254" duration="847000" />
+      <workItem from="1598531419819" duration="3617000" />
+      <workItem from="1598577044721" duration="13476000" />
+      <workItem from="1598664512345" duration="6133000" />
+      <workItem from="1598694814071" duration="3790000" />
+      <workItem from="1598715036525" duration="599000" />
+      <workItem from="1598715967501" duration="2243000" />
+      <workItem from="1598778133119" duration="598000" />
+      <workItem from="1598798108917" duration="765000" />
+      <workItem from="1598835501468" duration="1446000" />
+      <workItem from="1599189013771" duration="1488000" />
+      <workItem from="1599487195049" duration="926000" />
+      <workItem from="1599662582485" duration="1859000" />
+      <workItem from="1599904195136" duration="935000" />
+      <workItem from="1606919505827" duration="2506000" />
+      <workItem from="1606981828470" duration="3451000" />
+      <workItem from="1607067091920" duration="598000" />
+      <workItem from="1607137845878" duration="1244000" />
+      <workItem from="1607253060689" duration="351000" />
+      <workItem from="1607253841663" duration="1584000" />
+      <workItem from="1607256230525" duration="1678000" />
+      <workItem from="1607865536966" duration="608000" />
+      <workItem from="1607929281641" duration="4175000" />
+      <workItem from="1607958335945" duration="659000" />
+      <workItem from="1608005402756" duration="5280000" />
+      <workItem from="1608081694760" duration="3504000" />
+      <workItem from="1608168639488" duration="5125000" />
+      <workItem from="1608254617100" duration="2472000" />
+      <workItem from="1608377490487" duration="745000" />
+      <workItem from="1608446458919" duration="3093000" />
+      <workItem from="1608471877994" duration="4516000" />
+      <workItem from="1608514372905" duration="7148000" />
+      <workItem from="1608560856136" duration="1314000" />
+      <workItem from="1608600007158" duration="5356000" />
+      <workItem from="1608687048731" duration="7247000" />
+      <workItem from="1608769789439" duration="1197000" />
+      <workItem from="1608860504818" duration="601000" />
+      <workItem from="1609038686625" duration="947000" />
+      <workItem from="1609122542862" duration="2073000" />
+      <workItem from="1609209748034" duration="3185000" />
+      <workItem from="1609299159086" duration="1878000" />
+      <workItem from="1609329662803" duration="2952000" />
+      <workItem from="1609378037103" duration="7921000" />
+      <workItem from="1609473800164" duration="467000" />
+      <workItem from="1609512451572" duration="2019000" />
+      <workItem from="1609570902554" duration="4990000" />
+      <workItem from="1609580379416" duration="778000" />
+      <workItem from="1609581181141" duration="160000" />
+      <workItem from="1609581359928" duration="2169000" />
+      <workItem from="1609583586668" duration="1451000" />
+      <workItem from="1609585064862" duration="142000" />
+      <workItem from="1609585235434" duration="2165000" />
+      <workItem from="1609655914272" duration="2755000" />
+      <workItem from="1609674887620" duration="2555000" />
+      <workItem from="1609723733304" duration="8698000" />
+      <workItem from="1609764964682" duration="1378000" />
+      <workItem from="1609809924804" duration="11521000" />
+      <workItem from="1609849375646" duration="2532000" />
+      <workItem from="1609897698279" duration="2507000" />
+      <workItem from="1609905579537" duration="9910000" />
+      <workItem from="1609982569094" duration="14072000" />
+      <workItem from="1610070160715" duration="2426000" />
+      <workItem from="1610261237785" duration="590000" />
+      <workItem from="1610329383395" duration="2328000" />
+      <workItem from="1610421752348" duration="631000" />
+      <workItem from="1610507324782" duration="1190000" />
+      <workItem from="1610543973773" duration="1110000" />
+      <workItem from="1610587807394" duration="596000" />
+      <workItem from="1610674786299" duration="1002000" />
+      <workItem from="1610781866941" duration="4999000" />
+      <workItem from="1610852783860" duration="893000" />
+      <workItem from="1610863445018" duration="2679000" />
+      <workItem from="1610933481549" duration="13554000" />
+      <workItem from="1611019839065" duration="12310000" />
+      <workItem from="1611108579278" duration="9613000" />
+      <workItem from="1611193454852" duration="7031000" />
+      <workItem from="1611278639636" duration="5781000" />
+      <workItem from="1611402109312" duration="2758000" />
+      <workItem from="1611474975244" duration="550000" />
+      <workItem from="1611539234969" duration="8048000" />
+      <workItem from="1611625976896" duration="6860000" />
+      <workItem from="1611655984461" duration="4358000" />
+      <workItem from="1611673952240" duration="1305000" />
+      <workItem from="1611676041760" duration="1060000" />
+      <workItem from="1611711190652" duration="8389000" />
+      <workItem from="1611798465357" duration="2331000" />
+      <workItem from="1611842450460" duration="688000" />
+      <workItem from="1611885199088" duration="2034000" />
+      <workItem from="1611978890179" duration="598000" />
+      <workItem from="1612019164227" duration="847000" />
+      <workItem from="1612076529591" duration="1858000" />
+      <workItem from="1612095952057" duration="3835000" />
+      <workItem from="1612143254976" duration="1799000" />
+      <workItem from="1612229311522" duration="4600000" />
+      <workItem from="1612323611324" duration="597000" />
+      <workItem from="1612402169874" duration="6288000" />
+      <workItem from="1612489225688" duration="4546000" />
+      <workItem from="1612663541989" duration="5165000" />
+      <workItem from="1612765847988" duration="513000" />
+      <workItem from="1612851386684" duration="594000" />
+      <workItem from="1612929085847" duration="1211000" />
+      <workItem from="1613040602127" duration="359000" />
+      <workItem from="1613123111367" duration="11325000" />
+      <workItem from="1613224792647" duration="4889000" />
+      <workItem from="1613281151958" duration="105000" />
+      <workItem from="1613281326114" duration="249000" />
+      <workItem from="1613281631579" duration="745000" />
+      <workItem from="1613283796981" duration="88000" />
+      <workItem from="1613283911765" duration="6468000" />
+      <workItem from="1613385852018" duration="395000" />
+      <workItem from="1613387500855" duration="603000" />
+      <workItem from="1613391385438" duration="5968000" />
+      <workItem from="1613460920695" duration="5010000" />
+      <workItem from="1613612392143" duration="16902000" />
+      <workItem from="1613698690728" duration="9280000" />
+      <workItem from="1613784368713" duration="10631000" />
+      <workItem from="1613829420222" duration="4813000" />
+      <workItem from="1613879593676" duration="6541000" />
+      <workItem from="1613909400003" duration="971000" />
+      <workItem from="1613961045786" duration="6791000" />
+      <workItem from="1614043730950" duration="15461000" />
+      <workItem from="1614168970002" duration="1613000" />
+      <workItem from="1614173215978" duration="6752000" />
+      <workItem from="1614216343859" duration="672000" />
+      <workItem from="1614405099139" duration="598000" />
+      <workItem from="1614564402478" duration="3849000" />
+      <workItem from="1614648210512" duration="8130000" />
+      <workItem from="1614740701167" duration="9487000" />
+      <workItem from="1614822941411" duration="3920000" />
+      <workItem from="1614864499504" duration="599000" />
+      <workItem from="1614908851472" duration="3787000" />
+      <workItem from="1615121848864" duration="597000" />
+      <workItem from="1615167188171" duration="17129000" />
+      <workItem from="1615216768299" duration="1865000" />
+      <workItem from="1615253215153" duration="12096000" />
+      <workItem from="1615339143452" duration="7303000" />
+      <workItem from="1615426660913" duration="16679000" />
+      <workItem from="1615509183732" duration="3245000" />
+      <workItem from="1615616189366" duration="18515000" />
+      <workItem from="1615704761940" duration="8357000" />
+      <workItem from="1615771683839" duration="11919000" />
+      <workItem from="1615857905576" duration="9584000" />
+      <workItem from="1615893926947" duration="2702000" />
+      <workItem from="1615951825257" duration="8060000" />
+      <workItem from="1616030983923" duration="12507000" />
+      <workItem from="1616064929927" duration="3877000" />
+      <workItem from="1616118365260" duration="5363000" />
+      <workItem from="1616151418847" duration="745000" />
+      <workItem from="1616206080036" duration="7080000" />
+      <workItem from="1616241353890" duration="3175000" />
+      <workItem from="1616310040405" duration="13212000" />
+      <workItem from="1616394363882" duration="4519000" />
+      <workItem from="1616477460273" duration="5020000" />
+      <workItem from="1616504858165" duration="636000" />
+      <workItem from="1616516038489" duration="1779000" />
+      <workItem from="1616551441717" duration="3620000" />
+      <workItem from="1616636127999" duration="1191000" />
+      <workItem from="1616727236657" duration="1593000" />
+      <workItem from="1616775459940" duration="58000" />
+      <workItem from="1616831331209" duration="674000" />
+      <workItem from="1617292359474" duration="863000" />
+      <workItem from="1617328611990" duration="15227000" />
+      <workItem from="1617417556954" duration="2653000" />
+      <workItem from="1617628369034" duration="1195000" />
+      <workItem from="1617675538001" duration="582000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="test01_func4 - 2020.06.02 at 20h 05m 17s.xml">
-      <configuration name="test01.func4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test01_func4 - 2020.06.02 at 20h 07m 18s.xml">
-      <configuration name="test01.func4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test01_func4 - 2020.06.02 at 20h 07m 23s.xml">
-      <configuration name="test01.func4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_func1_(1) - 2020.06.04 at 21h 15m 36s.xml">
-      <configuration name="test.func1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_func1_(1) - 2020.06.04 at 21h 31m 31s.xml">
-      <configuration name="test.func1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_func1_(1) - 2020.06.04 at 21h 31m 43s.xml">
-      <configuration name="test.func1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_func1_(1) - 2020.06.04 at 21h 32m 31s.xml">
-      <configuration name="test.func1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_func1_(1) - 2020.06.04 at 21h 44m 48s.xml">
-      <configuration name="test.func1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_func1_(1) - 2020.06.04 at 21h 46m 38s.xml">
-      <configuration name="test.func1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test01_func5 - 2020.06.06 at 10h 32m 04s.xml">
-      <configuration name="test01.func5" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73572000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info anchor="right" id="PlantUML" order="3" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.660485" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.4721826" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="right" id="leetcode" order="4" side_tool="true" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33238232" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24932976" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.511396" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.15281501" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="PlantUML" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Database Console" order="13" weight="0.511396" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35948646" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33238232" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.47293448" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.15281501" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24262735" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="leetcode" order="0" side_tool="true" weight="0.3297587" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297587" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35897437" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.0.RELEASE/spring-beans-5.0.0.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
           <line>122</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test/test01.java</url>
-          <line>226</line>
-          <properties />
+          <line>418</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test01.java</url>
+          <line>363</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/app.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.0.RELEASE/spring-context-5.0.0.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/proxy/test.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/collection/MyLinkedList.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/juc/threadpool/Test.java</url>
+          <line>82</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test02.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/spring/entity/MyImportBeanDefinitionRegistrar.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.0.RELEASE/spring-context-5.0.0.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>520</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.0.RELEASE/spring-context-5.0.0.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>1082</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.0.RELEASE/spring-beans-5.0.0.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
+          <line>246</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="beanName.equals(&quot;x&quot;)" language="JAVA" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.0.RELEASE/spring-beans-5.0.0.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>539</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.class</url>
+          <line>178</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.class</url>
+          <line>160</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/spring/Test.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="beanName.equals(&quot;y&quot;)" language="JAVA" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>301</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>446</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/annotation/Test.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/annotation/Test.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.0.RELEASE/spring-context-5.0.0.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java</url>
+          <line>284</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.0.RELEASE/spring-context-5.0.0.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java</url>
+          <line>316</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="beanName.equals(&quot;x&quot;)" language="JAVA" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.0.RELEASE/spring-beans-5.0.0.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>436</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/proxy/test.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/collection/Test.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/collection/Test.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/collection/Test.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.0.RELEASE/spring-beans-5.0.0.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>1330</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/mq/Producer.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/mq/Producer.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
     </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/pojo/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.0.RELEASE/spring-beans-5.0.0.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.0.RELEASE/spring-core-5.0.0.RELEASE.jar!/org/springframework/util/ClassUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.0.RELEASE/spring-core-5.0.0.RELEASE.jar!/org/springframework/core/io/DefaultResourceLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.0.RELEASE/spring-context-5.0.0.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.0.RELEASE/spring-core-5.0.0.RELEASE.jar!/org/springframework/util/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.0.RELEASE/spring-beans-5.0.0.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE.jar!/org/springframework/aop/framework/AdvisedSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE.jar!/org/springframework/aop/framework/ProxyFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="389" column="25" selection-start-line="389" selection-start-column="25" selection-end-line="389" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.0.RELEASE/spring-context-5.0.0.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12730">
-          <caret line="783" selection-start-line="783" selection-end-line="783" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.0.RELEASE/spring-context-5.0.0.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.0.RELEASE/spring-context-5.0.0.RELEASE.jar!/org/springframework/context/support/AbstractXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE.jar!/org/springframework/aop/config/spring-aop.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="356" column="64" selection-start-line="356" selection-start-column="64" selection-end-line="356" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE.jar!/org/springframework/aop/aspectj/AspectJPointcutAdvisor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE.jar!/org/springframework/aop/Advisor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.0.RELEASE/spring-context-5.0.0.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE.jar!/org/springframework/aop/support/StaticMethodMatcherPointcutAdvisor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4bf50a4a-4017-41d4-8dc9-0288ddf1155e/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="361" column="55" lean-forward="true" selection-start-line="361" selection-start-column="52" selection-end-line="361" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/aop/testAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/StampedLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15884">
-          <caret line="881" column="16" selection-start-line="881" selection-start-column="16" selection-end-line="881" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16264">
-          <caret line="913" column="16" selection-start-line="913" selection-start-column="16" selection-end-line="913" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2413">
-          <caret line="160" column="31" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2527">
-          <caret line="166" column="19" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="1839" column="15" selection-start-line="1839" selection-start-column="15" selection-end-line="1839" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="167" column="33" selection-start-line="167" selection-start-column="33" selection-end-line="167" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="1808" column="78" selection-start-line="1808" selection-start-column="78" selection-end-line="1808" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/LockSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="171" column="23" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/juc/Mutex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre.jar!/com/google/common/collect/Lists.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="161" column="30" selection-start-line="161" selection-start-column="30" selection-end-line="161" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/guava/baseUtils/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/beans/ConstructorProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="68" column="39" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar!/lombok/RequiredArgsConstructor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13338">
-          <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="829" selection-start-line="829" selection-end-line="829" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/proxy/jdk/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/proxy/jdk/MyInvovationHanlder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="250" selection-start-line="250" selection-end-line="250" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/proxy/jdk/XM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/proxy/cglib/MyMethondIncepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/app.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/proxy/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.0.RELEASE/spring-beans-5.0.0.RELEASE.jar!/org/springframework/beans/factory/FactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3070">
-          <caret line="172" column="32" selection-start-line="172" selection-start-column="32" selection-end-line="172" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this.CGLIB$CALLBACK_6" custom="java.util.concurrent.ConcurrentHashMap,org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory,java.util.concurrent.ConcurrentHashMap.MapEntry,test.spring.entity.X" />
+        <watch expression="advisors.get(0)" />
+        <watch expression="advisors.get(0)" language="JAVA" />
+        <watch expression="advisors[0]" />
+        <watch expression="priorityOrderedPostProcessors" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

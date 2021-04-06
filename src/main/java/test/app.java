@@ -1,23 +1,30 @@
-package test; /**
+package test;
+
+import java.util.Deque;
+import java.util.LinkedList;
+
+/**
  * @author l
  * @create 2020-05-21-22:38
  */
-import org.springframework.aop.framework.AopProxy;
-import org.springframework.beans.factory.support.AbstractBeanFactory;
-import org.springframework.beans.factory.support.DefaultSingletonBeanRegistry;
-import org.springframework.context.support.AbstractApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-import test.pojo.Student;
-import test.pojo.Teacher;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Scanner;
-
 public class app {
-    public static int num1[]=new int[200];
-    public  static int num2[]=new int[200];
+    public static int []num1=new int[200];
+    public  static int []num2=new int[200];
     public static void main(String[] args) {
+        int m=2;
+        int n=2;
+        double result = 1.0;
+        double t = m;
+         while (n>0){
+
+             if(n%2==1) {
+                 result*=t;
+             }
+             t*=t;
+             n>>=1;
+         }
+        System.out.println(result);
+
 //        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
 //
 //
@@ -28,14 +35,16 @@ public class app {
 //        bean.sayHello1();
 //        bean.func1();
         //System.out.println();
-        Scanner sc = new Scanner(System.in);
-        int n=sc.nextInt();
-        getNumArray(n);
-        //System.out.println(Arrays.toString(num1));
-        printNum1();
+//        Scanner sc = new Scanner(System.in);
+//        int n=sc.nextInt();
+//        getNumArray(n);
+//        //System.out.println(Arrays.toString(num1));
+//        printNum1();
 
     }
     public  static void printNum1(){
+        Deque<Integer> que=new LinkedList<>();
+
       int endIndex=0;
       int c=0;
       while(num1[endIndex]!=0||c!=0){
@@ -44,10 +53,17 @@ public class app {
           num1[endIndex]%=10;
           endIndex++;
       }
-      if(endIndex==0) return;
+      if(endIndex==0) {
+          return;
+      }
 
-      for(int i=endIndex-1;i>=0;i--) System.out.print(num1[i]);
+      for(int i=endIndex-1;i>=0;i--) {
+          System.out.print(num1[i]);
+
+      }
+
     }
+
 
     public  static void initNum2(){
         for(int i=0;i<200;i++) num2[i]=0;

@@ -1,22 +1,16 @@
 package test.pojo;
 
-import lombok.Data;
-import org.springframework.beans.factory.config.BeanDefinition;
-import org.springframework.beans.factory.config.BeanPostProcessor;
-import org.springframework.stereotype.Component;
-import test.annotation.TestAnnotation;
-import test.myBeanFactoryPostProcess.test;
+import java.io.Serializable;
 
 /**
  * @author l
  * @create 2020-05-21-22:41
  */
-@Data
-@Component
-public class Student implements BeanPostProcessor {
-    private String name;
-    private Integer age;
 
+public class Student implements Serializable,Cloneable {
+    private String name;
+    private Integer id;
+    private  Teacher teacher;
     public void sayHello(){
           System.out.println("haha");
     }
@@ -25,6 +19,14 @@ public class Student implements BeanPostProcessor {
     }
     public void func1(){
         System.out.println("func1");
+    }
+
+    @Override
+    public Student clone() throws CloneNotSupportedException {
+        //Student clone = (Student)super.clone();
+        //clone.setTeacher(this.teacher.clone());
+        //return clone;
+        return null;
     }
 
 }

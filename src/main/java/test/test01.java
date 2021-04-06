@@ -1,13 +1,22 @@
 package test;
 
-import org.junit.jupiter.api.Test;
-import test.juc.Mutex;
+import com.opencsv.CSVReader;
+import com.opencsv.CSVReaderBuilder;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.junit.Test;
+import test.juc.lock.Mutex;
 
+import java.io.*;
+import java.lang.reflect.InvocationTargetException;
+import java.nio.channels.SelectionKey;
+import java.nio.channels.Selector;
+import java.nio.channels.ServerSocketChannel;
 import java.util.*;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.locks.AbstractQueuedSynchronizer;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -15,6 +24,221 @@ import java.util.concurrent.locks.ReentrantLock;
  * @create 2020-05-24-11:10
  */
 public class test01 {
+
+
+     @Test
+     public void test15(){
+         String path="D:\\360Downloads\\";
+         String name="zeus_2020_9_9 (2).csv";
+         String ENCODE="UTF-8";
+         try (CSVReader csvReader = new CSVReaderBuilder(new BufferedReader(new InputStreamReader(new FileInputStream(new File(path+name)), ENCODE))).build()) {
+             File file = new File("src/main/resources/中心.txt");
+             FileWriter vFileWriter = new FileWriter(file);
+             BufferedWriter vBufferedWriter = new BufferedWriter(vFileWriter);
+             Iterator<String[]> iterator = csvReader.iterator();
+             String temp[];
+             String insert="insert into bms_original_package ";
+             boolean isFirst=false;
+             while (iterator.hasNext()) {
+                 temp=iterator.next();
+                 StringBuilder builder = new StringBuilder();
+                 builder.append('(');
+                 if(isFirst) {
+                      for (int i = 1; i < temp.length; i++){
+                          builder.append(temp[i]);
+                          if(i!=temp.length-1) builder.append(',');
+                      }
+                  }
+                  else{
+                     for (int i = 1; i < temp.length; i++){
+                         builder.append(temp[i]);
+                         if(i!=temp.length-1) builder.append(',');
+                     }
+                  }
+                  builder.append(')');
+                  System.out.println(builder);
+                  vBufferedWriter.write(builder.toString());
+                  vBufferedWriter.write("\n");
+                  vBufferedWriter.flush();
+             }
+         } catch (Exception e) {
+             e.printStackTrace();
+         }
+     }
+
+
+
+    @Test
+    public  void test14(){
+        CloseableHttpClient httpClient = HttpClients.custom()
+                .setConnectionTimeToLive(6000, TimeUnit.MILLISECONDS).build();
+
+
+    }
+
+    @Test
+    public  void jucTest() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException, IOException {
+//        Student student = new Student();
+//        new Thread(()->{
+//            student.setId(1);
+//        });
+//        String s = new String("1");
+//        s=s.intern();
+//        String s2 = "1";
+//
+//        System.out.println(s == s2);
+//
+//        String s3 = new String("1") + new String("1");
+//        s3.intern();
+//        String s4 = "11";
+//        System.out.println(s3 == s4);
+//           String s="cc";
+//        String h = new String("cc");
+//         h.intern();
+//         h.intern();
+//        System.out.println(h.intern() == h);
+//        FileInputStream stream = new FileInputStream();
+
+        String str2 = new String("str") ;
+        str2.intern();
+        String str1 = "str01";
+        str2.intern();
+        System.out.println(str2 == str1);
+
+        String str3 = new String("str01");
+        str3.intern();
+        String str4 = "str01";
+        System.out.println(str3 == str4);
+        ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
+        serverSocketChannel.bind(null);
+        serverSocketChannel.configureBlocking(false);
+        Selector selector = Selector.open();
+        serverSocketChannel.register(selector,SelectionKey.OP_ACCEPT);
+//        ArrayList<Integer> arrayList3=new ArrayList<Integer>();
+//        arrayList3.add(1);//这样调用add方法只能存储整形，因为泛型类型的实例为Integer
+//        arrayList3.getClass().getMethod("add", Object.class).invoke(arrayList3, "asd");
+//        for (int i=0;i<arrayList3.size();i++) {
+//
+//            System.out.println(arrayList3.get(i));
+//        }
+//
+//        ArrayList<? extends Number> list=new ArrayList<>();
+//        ArrayList<? super >
+
+
+    }
+
+    @Test
+    public  void test13() throws IOException, ClassNotFoundException, CloneNotSupportedException {
+        String prefix="src/main/resources";
+//        InputStream in = new FileInputStream(prefix+"a.txt");
+//        ObjectInputStream os = new ObjectInputStream(in);
+//       Student s= (Student) os.readObject();
+//       System.out.println(s);
+//         OutputStream os=      new FileOutputStream(prefix+"a.txt");
+//        ObjectOutputStream stream = new ObjectOutputStream(os);
+//        Student student = new Student();
+//        student.setId(1);
+//        student.setName("123");
+//        Teacher teacher = new Teacher();
+//        teacher.setName("lisi");
+//        student.setTeacher(teacher);
+//        Student student1 = student.clone();
+//        student.getTeacher().setName("wangwu");
+//        System.out.println(student1);
+
+//        stream.writeObject(student);
+//           os.close();
+    }
+
+//    @Test
+//    public  void test5(){
+////        MyQueue<Integer> queue = new MyQueue<>(2);
+////        System.out.println(queue.isEmpty());
+////        System.out.println(queue.push(1));
+////        System.out.println(queue.push(2));
+////        System.out.println(queue);
+////        System.out.println(queue.size());
+////        System.out.println(queue.isFull());
+////        System.out.println(queue.pop());
+////        System.out.println(queue.pop());
+////        System.out.println(queue.isEmpty());
+//        Student student = new Student();
+//        Student student1 = new Student();
+//        student.setName("123");
+//        student.setId(1);
+//
+//        HashSet<Student> set = new HashSet<>();
+//        set.add(student);
+//        //set.add(student1);
+//        student.setId(3);
+//        set.add(student);
+//        for (Student s:set
+//             ) {
+//            System.out.println(s.hashCode());
+//        }
+//        System.out.println(set);
+//
+//    }
+
+
+
+     @Test
+     public   void test4() {
+         String surfix=".txt";
+         String fileName = "src/main/resources/中心";
+         try {
+             File file = new File(fileName);
+             File fileOut=new File(fileName+"out"+surfix);
+             if(!fileOut.exists()) file.createNewFile();
+             InputStreamReader inputReader = new InputStreamReader(new FileInputStream(file));
+             BufferedReader bf = new BufferedReader(inputReader);
+
+            //System.out.println(file.exists());
+             FileWriter vFileWriter = new FileWriter(fileOut);
+             BufferedWriter vBufferedWriter = new BufferedWriter(vFileWriter);
+             String str;
+             int cnt=0;
+             while ((str = bf.readLine()) != null) {
+              cnt++;
+              vBufferedWriter.write(str);
+              vBufferedWriter.newLine();
+              if(cnt==10){
+                  cnt=0;
+                  vBufferedWriter.write("======================================");
+                  vBufferedWriter.newLine();
+              }
+             }
+             if(cnt!=0&&str!=null&&str.length()>0){
+             vBufferedWriter.write(str);
+             vBufferedWriter.newLine();}
+             vBufferedWriter.flush();
+             bf.close();
+             inputReader.close();
+         } catch (IOException e) {
+             e.printStackTrace();
+         }
+     }
+
+         @Test
+     public  void test3() throws ExecutionException, InterruptedException {
+         FutureTask<Integer> task = new FutureTask<>(()->{
+                Thread.sleep(3000);
+             return 1024;
+         });
+                    new Thread(task,"thread-01").start();
+             System.out.println(1111);
+             System.out.println(task.get());
+             System.out.println(2222);
+     }
+    @Test
+    public  void test(){
+
+        String s="#";
+        String s1="2";
+
+        System.out.println(Arrays.toString(s.split("#")));
+    }
     public int compress(char[] chars) {
         int anchor = 0, write = 0;
         for (int read = 0; read < chars.length; read++) {
@@ -128,37 +352,7 @@ public class test01 {
 
 
 
-    public  void initNum2(){
-        for(int i=0;i<200;i++) num2[i]=0;
-    }
 
-    public  void num1AddNum2(int endIndex){
-        for(int i=0;i<endIndex;i++){
-            num1[i]+=num2[i];
-        }
-    }
-    public  void getNumArray(int n){
-
-        for(int i=1;i<=n;i++){
-             initNum2();
-             num2[0]=1;
-             int endIndex=1;
-            for(int j=2;j<=i;j++){
-                int k=0;
-                for(;k<endIndex;k++) num2[k]*=j;
-                int c=0;
-                k=0;
-                while(c!=0||k<endIndex){
-                    num2[k]+=c;
-                    c=num2[k]/10;
-                    num2[k]%=10;
-                    k++;
-                }
-                endIndex=k;
-            }
-            num1AddNum2(endIndex);
-        }
-    }
 
 
     public List<List<Integer>> fourSum(int[] nums, int target) {
@@ -168,7 +362,7 @@ public class test01 {
         List<List<Integer>> ret=new ArrayList<>();
         int len=nums.length;
         for(int i=0;i<len-3;i++){
-            if(i!=0&&nums[i]==nums[i=1]) continue;
+            if(i!=0&&nums[i]==nums[i-1]) continue;
             for(int j=i+1;j<len-2;j++){
                 if(j!=i+1&&nums[j]==nums[j-1]) continue;
                 int l=j+1;

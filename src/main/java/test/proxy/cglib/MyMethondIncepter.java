@@ -1,13 +1,13 @@
 package test.proxy.cglib;
 
-import org.springframework.cglib.proxy.Enhancer;
-import org.springframework.cglib.proxy.MethodInterceptor;
-import org.springframework.cglib.proxy.MethodProxy;
+
+import net.sf.cglib.proxy.Enhancer;
+import net.sf.cglib.proxy.MethodInterceptor;
+import net.sf.cglib.proxy.MethodProxy;
 import test.proxy.jdk.User;
 import test.proxy.jdk.XM;
 
 import java.lang.reflect.Method;
-import java.util.Objects;
 
 /**
  * @author l
@@ -19,6 +19,7 @@ public class MyMethondIncepter implements MethodInterceptor {
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(XM.class);
         enhancer.setCallback(new MyMethondIncepter());
+        //enhancer.setCallbacks(null);
         return   (User) enhancer.create();
 
     }
@@ -26,6 +27,7 @@ public class MyMethondIncepter implements MethodInterceptor {
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
          System.out.println("cglib do before");
         Object o1 = methodProxy.invokeSuper(o, objects);
+
          System.out.println("cglib do after");
         return o1;
     }
