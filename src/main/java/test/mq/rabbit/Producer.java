@@ -3,6 +3,7 @@ package test.mq.rabbit;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
+import org.junit.Test;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
@@ -68,7 +69,6 @@ public class Producer {
          * 参数3：消息其它属性
          * 参数4：消息内容
          */
-        channel.confirmSelect()
         for(int i=0;i<10;i++){
             channel.basicPublish(D_EXCHANGE_NAME,"test1",null,(message+i).getBytes());
         }
@@ -81,5 +81,11 @@ public class Producer {
         // 关闭资源
         channel.close();
         connection.close();
+    }
+
+
+    @Test
+    public void test(){
+        System.out.println(4.84*0.08);
     }
 }

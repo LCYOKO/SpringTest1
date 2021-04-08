@@ -2,103 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6708a4c3-8687-4a6f-b507-619aa5cc27f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/MethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/annotation/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/collection/MapInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/collection/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/collection/MyMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/collection/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/collection/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/constant/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/copy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/copy/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/copy/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/db/DbPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/db/DbPoolImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/excle/MyTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/excle/ObserverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/excle/SingletonObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/excle/StrategyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/excle/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/collection/JucTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/consumer/TestMain01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/consumer/TestMain02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/consumer/TestMain03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/lock/MyLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/lock/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/DiscardRejectPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/MyExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/MyRjectPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/MyThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/MyThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/RejectPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/juc/threadpool/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/jvm/MyClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/jvm/TestGc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/mi/Describable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/mi/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/mi/successCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/mi/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/mq/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/mq/rabbit/ConnectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/mq/rabbit/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/mq/rabbit/MyConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/mq/rabbit/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/mvc/MyServeletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/mvc/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/MyBeanFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/MyImportSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/netty/simple/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/netty/simple/ServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/netty/simple/TestServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/netty/simple/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spi/DataSearchServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spi/NetSearchServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spi/SearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/annotation/MyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/config/MyBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/config/MyValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/entity/MyImportBeanDefinitionRegistrar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/entity/MyImportSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/entity/UserFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/entity/X.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/entity/Y.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/spring/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/springmvc/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/utils/BeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/test.spi.SearchService" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/中心" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/jdk8/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/jdk8/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mq/kafka/Consumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mq/kafka/CustomerPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/mq/kafka/Producer1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/aop/testAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/aop/TestAop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/app.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/juc/Mutex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/juc/lock/Mutex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/MyBeanPostProcesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/MyBeanPostProcesser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/myBeanFactoryPostProcess/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/pojo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/pojo/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/pojo/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/proxy/cglib/MyMethondIncepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/proxy/cglib/MyMethondIncepter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/proxy/jdk/MyInvovationHanlder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/proxy/jdk/MyInvovationHanlder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/proxy/jdk/XM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/proxy/jdk/XM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/proxy/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/proxy/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/aop/testAop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/aop/testAop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/app.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/app.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/juc/Mutex$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/juc/Mutex$Sync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/juc/Mutex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/myBeanFactoryPostProcess/MyBeanPostProcesser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/myBeanFactoryPostProcess/MyBeanPostProcesser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/myBeanFactoryPostProcess/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/myBeanFactoryPostProcess/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/pojo/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/pojo/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/pojo/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/proxy/cglib/MyMethondIncepter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/proxy/cglib/MyMethondIncepter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/proxy/jdk/MyInvovationHanlder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/proxy/jdk/MyInvovationHanlder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/proxy/jdk/XM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/proxy/jdk/XM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/proxy/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/proxy/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/guava/baseUtils/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/guava/baseUtils/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/mq/rabbit/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/mq/rabbit/Producer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -197,20 +108,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Consumer">
+  <component name="RunManager" selected="JUnit.LambdaTest.practice">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
-    <configuration name="Consumer" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.mq.rabbit.Consumer" />
-      <module name="SpringTest1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.mq.rabbit.Producer" />
+    <configuration name="Producer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.mq.kafka.Producer1" />
       <module name="SpringTest1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -223,33 +127,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LambdaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringTest1" />
-      <option name="PACKAGE_NAME" value="test.mq" />
-      <option name="MAIN_CLASS_NAME" value="test.mq.Producer" />
+      <option name="PACKAGE_NAME" value="test.jdk8" />
+      <option name="MAIN_CLASS_NAME" value="test.jdk8.LambdaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaTest.practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringTest1" />
+      <option name="PACKAGE_NAME" value="test.jdk8" />
+      <option name="MAIN_CLASS_NAME" value="test.jdk8.LambdaTest" />
+      <option name="METHOD_NAME" value="practice" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringTest1" />
+      <option name="PACKAGE_NAME" value="test.jdk8" />
+      <option name="MAIN_CLASS_NAME" value="test.jdk8.LambdaTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringTest1" />
+      <option name="PACKAGE_NAME" value="test.mq.rabbit" />
+      <option name="MAIN_CLASS_NAME" value="test.mq.rabbit.Producer" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringTest1" />
-      <option name="PACKAGE_NAME" value="test.excle" />
-      <option name="MAIN_CLASS_NAME" value="test.excle.Test" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringTest1" />
-      <option name="PACKAGE_NAME" value="test.excle" />
-      <option name="MAIN_CLASS_NAME" value="test.excle.Test" />
-      <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -264,19 +178,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Producer" />
-      <item itemvalue="Application.Consumer" />
-      <item itemvalue="JUnit.Test.test3" />
-      <item itemvalue="JUnit.Test.test5" />
-      <item itemvalue="JUnit.Producer.test" />
+      <item itemvalue="Application.Producer1" />
+      <item itemvalue="JUnit.Producer.test (1)" />
+      <item itemvalue="JUnit.LambdaTest.test01" />
+      <item itemvalue="JUnit.LambdaTest.practice" />
+      <item itemvalue="JUnit.LambdaTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Consumer" />
-        <item itemvalue="Application.Producer" />
-        <item itemvalue="JUnit.Producer.test" />
-        <item itemvalue="JUnit.Test.test5" />
-        <item itemvalue="JUnit.Test.test3" />
+        <item itemvalue="JUnit.LambdaTest.practice" />
+        <item itemvalue="JUnit.LambdaTest" />
+        <item itemvalue="JUnit.LambdaTest.test01" />
+        <item itemvalue="Application.Producer1" />
+        <item itemvalue="JUnit.Producer.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -489,7 +403,10 @@
       <workItem from="1617328611990" duration="15227000" />
       <workItem from="1617417556954" duration="2653000" />
       <workItem from="1617628369034" duration="1195000" />
-      <workItem from="1617675538001" duration="582000" />
+      <workItem from="1617675538001" duration="12427000" />
+      <workItem from="1617760384723" duration="20000" />
+      <workItem from="1617788558927" duration="8295000" />
+      <workItem from="1617845898526" duration="8723000" />
     </task>
     <servers />
   </component>

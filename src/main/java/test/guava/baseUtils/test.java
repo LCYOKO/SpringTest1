@@ -1,12 +1,10 @@
 package test.guava.baseUtils;
 
-import com.google.common.collect.Collections2;
 import com.google.common.collect.Lists;
 import com.google.common.primitives.Ints;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
-import java.util.Objects;
 
 /**
  * @author l
@@ -23,5 +21,13 @@ public class test {
         List<Integer> list = Ints.asList(1, 2, 3, 4);
         list=Lists.reverse(list);
         System.out.println(list);
+    }
+
+
+    @Test
+    public void testGuava(){
+       List<String>l= Lists.newArrayList();
+       l.add("123");
+       System.out.println(l.get(0));
     }
 }
